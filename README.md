@@ -35,3 +35,13 @@ Topic	TFIDF K-means/ LDA Terms
 
 ### Ontology
 <img width="549" alt="image" src="https://user-images.githubusercontent.com/74167574/216733906-907c4b14-6a43-496a-b1f8-e2206f68c275.png">
+
+## POTENTIAL IMPROVEMENTS AND FUTURE WORK
+-	Consider removing more generic economic terms from the dataset to improve model performance
+-	Further consolidating similar words (supervisory, supervision, supervisor) using either stemming and/or refining part-of-speech (POS) tagging
+-	Using pre-trained word embeddings like GloVe (Global Vectors for Word Representation) to possibly improve doc2vec model
+-	Increasing dataset size by including more Fed speeches and even published communications from the Fed, such as press releases and testimonies. 
+-	Create a recommendation system for speeches that are similar to a speech of interest. This may need to utilize neural networks (RNN) as well. This would also require more time in labeling the speeches manually in order to improve classification.
+-	Using Neural Networks to learn how to ‘FedSpeak’
+
+
